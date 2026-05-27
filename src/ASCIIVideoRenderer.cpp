@@ -9,7 +9,7 @@
 int main(int argc, char** argv) {
 	Magick::InitializeMagick(*argv);
 
-	int fps = 15; // Frames Per Second (duh)
+	int fps = 15;
 	int widthScale = 2; // Renderers width of scaling 
 	int heightScale = 1; // Renderers width of scaling 
 	int frames = 58; // How many frames to load.
